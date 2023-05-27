@@ -1,3 +1,8 @@
+use 'npm install' to install all the dependencies(node modules)
+then go to firebase console and create the webapp
+
+
+//automatically generated steps
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
