@@ -1,0 +1,21 @@
+.marquee {
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  
+  .marquee img {
+    display: inline-block;
+    width: 350px; /* Adjust the width as per your requirement */
+    margin-right: 10px; /* Adjust the margin as per your requirement */
+    animation: marquee 20s linear infinite;
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  

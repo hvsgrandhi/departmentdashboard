@@ -1,0 +1,20 @@
+a{
+    text-decoration: none;
+
+}
+.staff a:hover {
+    color: hotpink;
+}
+.card:hover {
+    background-color: #f0f0f0;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
+  }
+  .teach {
+    width: 1300px;
+    height: auto;
+    background-color: #eee;
+    padding: 10px;
+    overflow: auto;
+    border: 5px solid grey;
+    border-radius: 9px;
+  }

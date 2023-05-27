@@ -1,7 +1,22 @@
+import { useEffect } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
+
+  async function requestPermission(){
+   const permission = await Notification.requestPermission()
+   if(permission === 'granted'){
+    //generated token
+   }else if(permission === 'denied'){
+    alert("You denied for latest updates:(");
+   }
+  }
+
+  useEffect(()=>{
+    requestPermission();
+  },[])
+
   return (
     <div className="App">
       <header className="App-header">
