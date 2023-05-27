@@ -17,14 +17,8 @@ import 'firebase/compat/database';
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyAZAaJRAM96oBqqRU_Dwt7rUCpw7BSTsQ0",
-  authDomain: "departmentdashboard-dec42.firebaseapp.com",
-  projectId: "departmentdashboard-dec42",
-  storageBucket: "departmentdashboard-dec42.appspot.com",
-  messagingSenderId: "158914228853",
-  appId: "1:158914228853:web:ebd884de4929da4bce7e3c",
-  measurementId: "G-03QKLF80GD",
-  databaseURL:'https://departmentdashboard-dec42-default-rtdb.asia-southeast1.firebasedatabase.app'
+  //firebase config here
+  databaseURL:''//realtime database link here
 }
 
 // Initialize Firebase
